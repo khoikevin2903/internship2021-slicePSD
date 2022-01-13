@@ -1,4 +1,3 @@
-@import url(//db.onlinewebfonts.com/c/fe804155ad60a0702537f7e94387964f?family=DuepuntozeroW00-Regular);
 * {
   padding: 0;
   margin: 0;
@@ -20,6 +19,10 @@ html {
   -webkit-box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Duepuntozero";
+  src: url("//db.onlinewebfonts.com/c/fe804155ad60a0702537f7e94387964f?family=DuepuntozeroW00-Regular") format("truetype");
+}
 .wrapper {
   margin: 0 auto;
 }
