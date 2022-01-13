@@ -1,3 +1,7 @@
+@mixin font-face {
+    font-family: "DuepuntozeroW00-Regular";
+    src: url("//db.onlinewebfonts.com/c/fe804155ad60a0702537f7e94387964f?family=DuepuntozeroW00-Regular") format("truetype");
+}
 .body-home {
     background: rgb(247, 245, 244);
     background: linear-gradient(
@@ -23,7 +27,7 @@
                 margin-top: .5rem;
                 max-width: 33.6rem;
                 &__title {
-                    font-family: "DuepuntozeroW00-Regular";
+                    @include font-face();
                     font-weight: 300;
                     font-size: 4.1rem;
                     padding-bottom: 1.4rem;
@@ -43,7 +47,7 @@
                         margin-left: 1.7rem;
 
                         .title {
-                            font-family: "DuepuntozeroW00-Regular";
+                            @include font-face();
                             font-weight: 400;
                             font-size: 3rem;
                             color: rgb(153, 134, 131);

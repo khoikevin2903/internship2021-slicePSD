@@ -20,6 +20,7 @@
 }
 .body-home .content .what-we-do .list-job__title {
   font-family: "DuepuntozeroW00-Regular";
+  src: url("//db.onlinewebfonts.com/c/fe804155ad60a0702537f7e94387964f?family=DuepuntozeroW00-Regular") format("truetype");
   font-weight: 300;
   font-size: 4.1rem;
   padding-bottom: 1.4rem;
@@ -38,6 +39,7 @@
 }
 .body-home .content .what-we-do .list-job__item .item__content .title {
   font-family: "DuepuntozeroW00-Regular";
+  src: url("//db.onlinewebfonts.com/c/fe804155ad60a0702537f7e94387964f?family=DuepuntozeroW00-Regular") format("truetype");
   font-weight: 400;
   font-size: 3rem;
   color: #998683;
