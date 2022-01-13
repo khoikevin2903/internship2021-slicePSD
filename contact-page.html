@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="./css/reset.css"> -->
+    <link rel="stylesheet" href="./css/header-contactpage/header.css">
+    <link rel="stylesheet" href="./css/footer/footer.css">
+    <link rel="stylesheet" href="./css/contact/contact.css">
+    <!-- <link rel="stylesheet" href="./css/responsive/responsive.css"> -->
+    <link
+        href="https://www.dafontfree.net/embed/Zm9ybXVsYS1zZXJpYWwtbWVkaXVtLXJlZ3VsYXImZGF0YS8zNi9mLzEzMTAxOC9mb3JtdWxhLXNlcmlhbC1tZWRpdW0tcmVndWxhci50dGY"
+        rel="stylesheet" type="text/css" />
+    <link href="//db.onlinewebfonts.com/c/fe804155ad60a0702537f7e94387964f?family=DuepuntozeroW00-Regular"
+        rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="./font/Helvetica.ttf">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/235f338b2a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="contactpage">
+        <div class="sidenav" id="Sidenav">
+            <div class="sidenav__icon-close" onclick="closeNav()">
+                <i class="fas fa-times"></i>
+            </div>
+            <ul class="sidenav__menu">
+                <li class="sidenav__menu__item">
+                    <div class="item__icon">
+                        <img src="./icon/home.png" alt="">
+                    </div>
+                    <p class="item__name">home</p>
+                </li>
+                <li class="sidenav__menu__item">
+                    <img src="./icon/work.png" alt="" class="item__icon">
+                    <p class="item__name">work</p>
+                </li>
+                <li class="sidenav__menu__item">
+                    <img src="./icon/about.png" alt="" class="item__icon">
+                    <p class="item__name">about</p>
+                </li>
+                <l class="sidenav__menu__item">
+                    <img src="./icon/contact.png" alt="" class="item__icon">
+                    <p class="item__name">contact</p>
+                </l>
+            </ul>
+        </div>
+        <div class="header wrapper">
+            <div class="header__inner">
+                <div class="container">
+                    <ul class="header__inner__menu">
+                        <img src="./icon/light.png" alt="" class="icon-light">
+                        <li class="item item-home">
+                            <a href="./home-page.html">
+                                <img src="./icon/home.png" class="item__icon" alt="">
+                                <p class="item__name">home</p>
+                            </a>
+                        </li>
+                        <li class="item item-work">
+                            <img src="./icon/work.png" alt="" class="item__icon">
+                            <p class="item__name">work</p>
+                        </li>
+                        <li class="item item-about">
+                            <img src="./icon/about.png" alt="" class="item__icon">
+                            <p class="item__name">about</p>
+                        </li>
+                        <l class="item item-contact">
+                            <img src="./icon/contact.png" alt="" class="item__icon">
+                            <p class="item__name">contact</p>
+                        </l>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="header__banner container">
+                <i class="fas fa-bars icon-menu" onclick="openNav()"></i>
+                <div class="header__banner__title">
+                    <div class="logo">
+                        <img src="./icon/Box-logo.png   " alt="">
+                    </div>
+                    <div class="image">
+                        <img src="./icon/BOX.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="body-contact container">
+            <div class="body-left"></div>
+            <div class="body-right">
+                <h2 class="title">contact us</h2>
+                <div class="detail">
+                    <p class="detail__text">reach us by completing the form below to send an email message, or use any
+                        of these
+                        details:</p>
+                    <div class="detail__content">
+                        <div class="detail__content__number">
+                            <p class="phone">phone: <span>+555 555 9555</span></p>
+                            <p class="fax">fax: <span>+555 555 9555</span></p>
+                        </div>
+                        <div class="detail__content__text">
+                            <p class="skype">skype: <span>Lightbox</span></p>
+                            <p class="twitter">twitter: <span>@lightbox</span></p>
+                        </div>
+                    </div>
+                </div>
+                <form action="" class="form-info">
+                    <div class="item">
+                        <p class="item__title">name</p>
+                        <input type="text" class="item__input">
+                    </div>
+                    <div class="item">
+                        <p class="item__title">email</p>
+                        <input type="text" class="item__input">
+                    </div>
+                    <div class="item">
+                        <p class="item__title">phone</p>
+                        <input type="text" class="item__input">
+                    </div>
+                    <div class="item item-area">
+                        <p class="item__title">message</p>
+                        <textarea class="item__input area" cols="30" rows="8"></textarea>
+                    </div>
+                    <div class="btn-submit">
+                        <p>submit</p>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+        <div class="footer wrapper footer-contact">
+            <div class="footer__inner container">
+                <div class="logo">
+                    <img src="./icon/logo-footer.png" alt="">
+                </div>
+                <div class="content">
+                    <div class="content__left">
+                        <p>font via <span>dafont (duepuntozero)</span></p>
+                        <p>icons by <span>iconeden</span></p>
+                    </div>
+                    <div class="content__right">
+                        <p>copyright (c) 2009 <span>rockablepress</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script>
+        function openNav() {
+            document.getElementById("Sidenav").style.width = "25.8rem";
+        }
+
+        function closeNav() {
+            document.getElementById("Sidenav").style.width = "0";
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,152 @@
+.body-contact {
+    margin-top: 3.9rem;
+    display: grid;
+    grid-template-columns: 34.6rem 1fr;
+
+    .body-right {
+        margin-right: 3.6px;
+        .title {
+            padding-left: 0.2rem;
+            font-size: 4.1rem;
+            text-transform: capitalize;
+            font-family: "DuepuntozeroW00-Regular";
+            font-weight: unset;
+            border-bottom: 1px solid rgb(218, 213, 213);
+            padding-bottom: 1.3rem;
+        }
+
+        .detail {
+            padding-left: 0.4rem;
+            margin-top: 2.2rem;
+
+            p::first-letter {
+                text-transform: capitalize;
+            }
+
+            &__text {
+                font-size: 1.3rem;
+                color: #645a56;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-bottom: 2.1rem;
+            }
+
+            &__content {
+                display: flex;
+                font-size: 1.3rem;
+                line-height: 2rem;
+                padding-top: 0.2rem;
+                font-weight: 600;
+                font-family: sans-serif;
+                color: rgb(52, 47, 44);
+
+                &__number {
+                    width: 21.7rem;
+
+                    .phone {
+                        span {
+                            margin-left: 2.4rem;
+                            font-size: 1.3rem;
+                            color: rgb(218, 214, 212);
+                            font-weight: 100;
+                        }
+                    }
+
+                    .fax {
+                        span {
+                            color: rgb(218, 214, 212);
+                            font-weight: 100;
+                            margin-left: 4.2rem;
+                            font-size: 1.3rem;
+                        }
+                    }
+                }
+
+                &__text {
+                    width: 21.7rem;
+
+                    .skype {
+                        span {
+                            margin-left: 2.5rem;
+                            font-size: 1.3rem;
+                            color: rgb(218, 214, 212);
+                            font-weight: 100;
+                        }
+                    }
+
+                    .twitter {
+                        span {
+                            color: rgb(218, 214, 212);
+                            font-weight: 100;
+                            margin-left: 2.2rem;
+                            font-size: 1.3rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .form-info {
+            margin-top: 4.8rem;
+            max-width: 46.9rem;
+            margin-bottom: 13.7rem;
+
+            .item {
+                padding-left: 0.3rem;
+                margin-bottom: 2.5rem;
+                &__title {
+                    text-transform: uppercase;
+                    color: #645a56;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 1.1rem;
+                }
+
+                &__input {
+                    width: 100%;
+                    margin-top: 0.8rem;
+                    font-size: 2.1rem;
+                    padding: 0.4rem;
+                    border: 1px solid #cdc5cf;
+                }
+
+                .area {
+                    padding: 0.9rem;
+                }
+            }
+
+            .item-area {
+                margin-bottom: 1.1rem;
+            }
+
+            .btn-submit {
+                display: flex;
+                justify-content: end;
+                text-transform: uppercase;
+
+                p {
+                    font-size: 1.1rem;
+                    border: 1px solid #645a56;
+                    background: #cdc4be;
+                    padding: 1rem 2.9rem;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .body-contact {
+        grid-template-columns: 1fr;
+        &__left {
+            display: none;
+        }
+
+        .body-right {
+            margin-left: auto;
+            margin-right: auto;
+            .form-info {
+                max-width: 35rem;
+            }
+        }
+    }
+}

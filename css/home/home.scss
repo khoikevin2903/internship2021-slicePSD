@@ -1,0 +1,265 @@
+.body-home {
+    background: rgb(247, 245, 244);
+    background: linear-gradient(
+        180deg,
+        rgba(247, 245, 244, 1) 90%,
+        rgba(207, 228, 235, 1) 100%,
+        rgba(232, 228, 225, 1) 100%
+    );
+    display: grid;
+    grid-template-columns: 34.6rem 1fr;
+    padding-bottom: 5.9rem;
+
+    .content {
+        padding: 2.5rem 2.3rem 2.3rem .2rem;
+
+        .what-we-do {
+            display: flex;
+            border-bottom: 2px solid rgb(218, 213, 213);
+            margin-top: 0.9rem;
+            padding-bottom: 1.3rem;
+
+            .list-job {
+                margin-top: .5rem;
+                max-width: 33.6rem;
+                &__title {
+                    font-family: "DuepuntozeroW00-Regular";
+                    font-weight: 300;
+                    font-size: 4.1rem;
+                    padding-bottom: 1.4rem;
+                    border-bottom: 2px solid rgb(218, 213, 213);
+                    margin-bottom: 3.8rem;
+                }
+
+                &__item {
+                    display: flex;
+                    padding: 0 .8rem 2.3rem 0;
+
+                    .item__icon {
+                        height: 3.4rem;
+                    }
+
+                    .item__content {
+                        margin-left: 1.7rem;
+
+                        .title {
+                            font-family: "DuepuntozeroW00-Regular";
+                            font-weight: 400;
+                            font-size: 3rem;
+                            color: rgb(153, 134, 131);
+                            text-transform: capitalize;
+                            margin-top: 1px;
+                        }
+
+                        .text {
+                            margin-left: .1rem;
+                            margin-top: .6rem;
+                            font-size: 1.3rem;
+                            font-family: Arial, Helvetica, sans-serif;
+                            color: rgb(153, 134, 131);
+                            line-height: 1.6;
+                        }
+                    }
+                }
+
+                .web-dev {
+                    padding-left: .8rem;
+                }
+
+                .graphics {
+                    margin-top: .5rem;
+
+                    .item__content {
+                        .text {
+                            margin-left: .2rem;
+                            margin-top: .7rem;
+                        }
+                    }
+                }
+
+                .usability-design {
+                    margin-top: .3rem;
+
+                    .item__icon {
+                        margin-top: .3rem;
+                        height: 3.6rem;
+                    }
+
+                    .item__content {
+                        margin-left: 1.5rem;
+                        .text {
+                            margin-left: .2rem;
+                        }
+                    }
+                }
+            }
+
+            .testimonial {
+                margin-left: 3.1rem;
+
+                &__content {
+                    max-width: 25rem;
+                    background: rgb(235, 231, 228);
+                    color: rgb(172, 155, 147);
+                    padding: 2.6rem 0 3.3rem 2.6rem;
+                    font-size: 2rem;
+                    font-family: Georgia, "Times New Roman", Times, serif;
+                    font-style: italic;
+                    font-weight: 500;
+                    // word-spacing: -3px;
+                    line-height: 2.7rem;
+                    letter-spacing: 0.1px;
+                    position: relative;
+
+                    .down-arrow {
+                        position: absolute;
+                        bottom: -2rem;
+                        right: 1.9rem;
+                        width: 0;
+                        height: 0;
+                        border-left: 3rem solid transparent;
+                        border-right: 3rem solid transparent;
+                        border-top: 3rem solid rgb(235, 231, 228);
+                        transform: rotate(-135deg);
+                        transform-origin: 50% 42%;
+                    }
+                }
+
+                &__author {
+                    text-align: end;
+                    margin-top: 4.4rem;
+                    margin-right: .9rem;
+
+                    .author {
+                        font-weight: 600;
+                        text-transform: capitalize;
+                        font-size: 1.5rem;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+
+                    .website {
+                        text-transform: uppercase;
+                        font-size: 1rem;
+                        margin-right: .4rem;
+                        color: rgb(137, 69, 31);
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+
+        .recent-work {
+            padding: 2.4rem 1.1rem 2.3rem 0;
+
+            &__title {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding-bottom: 2rem;
+
+                .title {
+                    margin-top: 1px;
+                    text-transform: capitalize;
+                    font-family: "DuepuntozeroW00-Regular";
+                    font-weight: 400;
+                    font-size: 4.1rem;
+                }
+
+                .list-page {
+                    list-style: none;
+                    display: flex;
+                    align-items: center;
+                    padding-right: .3rem;
+
+                    .page-number {
+                        padding: .3rem .7rem;
+                        border-radius: 9999px;
+                        background: rgb(108, 83, 90);
+                        margin-left: 1rem;
+                        color: white;
+                        font-size: 1.2rem;
+                    }
+
+                    .page-number:first-child {
+                        opacity: 0.8;
+                    }
+                }
+            }
+
+            &__image {
+                padding: 1rem;
+                border: 2px solid rgb(218, 213, 213);
+                background: white;
+            }
+
+            &__note {
+                font-family: Arial, Helvetica, sans-serif;
+                text-transform: capitalize;
+                text-align: end;
+                font-weight: 700;
+                color: rgb(78, 77, 77);
+                font-style: italic;
+                margin-top: 1.3rem;
+                font-size: 1.3rem;
+
+                span {
+                    font-weight: 200;
+                    text-transform: none;
+                    color: rgb(104, 103, 102);
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .body-home {
+        grid-template-columns: 1fr;
+
+        &__left {
+            display: none;
+        }
+
+        .content {
+            padding: 2.5rem 2.3rem 2.3rem 2.3rem;
+            .what-we-do {
+                justify-content: space-around;
+            }
+
+            .recent-work {
+                padding-right: 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 640px) {
+
+    .body-home {
+        .content {
+            .what-we-do {
+                display: block;
+
+                .list-job {
+                    max-width: none;
+
+                    &__item {
+                        .item__content {
+                            .text {
+                                font-size: 1.3rem;
+                            }
+                        }
+                    }
+                }
+
+                .testimonial {
+                    padding-bottom: 1rem;
+                    &__content {
+                        max-width: 39rem;
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+    }
+}

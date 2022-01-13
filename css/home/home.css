@@ -1,0 +1,214 @@
+.body-home {
+  background: #f7f5f4;
+  background: linear-gradient(180deg, #f7f5f4 90%, #cfe4eb 100%, #e8e4e1 100%);
+  display: grid;
+  grid-template-columns: 34.6rem 1fr;
+  padding-bottom: 5.9rem;
+}
+.body-home .content {
+  padding: 2.5rem 2.3rem 2.3rem 0.2rem;
+}
+.body-home .content .what-we-do {
+  display: flex;
+  border-bottom: 2px solid #dad5d5;
+  margin-top: 0.9rem;
+  padding-bottom: 1.3rem;
+}
+.body-home .content .what-we-do .list-job {
+  margin-top: 0.5rem;
+  max-width: 33.6rem;
+}
+.body-home .content .what-we-do .list-job__title {
+  font-family: "DuepuntozeroW00-Regular";
+  font-weight: 300;
+  font-size: 4.1rem;
+  padding-bottom: 1.4rem;
+  border-bottom: 2px solid #dad5d5;
+  margin-bottom: 3.8rem;
+}
+.body-home .content .what-we-do .list-job__item {
+  display: flex;
+  padding: 0 0.8rem 2.3rem 0;
+}
+.body-home .content .what-we-do .list-job__item .item__icon {
+  height: 3.4rem;
+}
+.body-home .content .what-we-do .list-job__item .item__content {
+  margin-left: 1.7rem;
+}
+.body-home .content .what-we-do .list-job__item .item__content .title {
+  font-family: "DuepuntozeroW00-Regular";
+  font-weight: 400;
+  font-size: 3rem;
+  color: #998683;
+  text-transform: capitalize;
+  margin-top: 1px;
+}
+.body-home .content .what-we-do .list-job__item .item__content .text {
+  margin-left: 0.1rem;
+  margin-top: 0.6rem;
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #998683;
+  line-height: 1.6;
+}
+.body-home .content .what-we-do .list-job .web-dev {
+  padding-left: 0.8rem;
+}
+.body-home .content .what-we-do .list-job .graphics {
+  margin-top: 0.5rem;
+}
+.body-home .content .what-we-do .list-job .graphics .item__content .text {
+  margin-left: 0.2rem;
+  margin-top: 0.7rem;
+}
+.body-home .content .what-we-do .list-job .usability-design {
+  margin-top: 0.3rem;
+}
+.body-home .content .what-we-do .list-job .usability-design .item__icon {
+  margin-top: 0.3rem;
+  height: 3.6rem;
+}
+.body-home .content .what-we-do .list-job .usability-design .item__content {
+  margin-left: 1.5rem;
+}
+.body-home .content .what-we-do .list-job .usability-design .item__content .text {
+  margin-left: 0.2rem;
+}
+.body-home .content .what-we-do .testimonial {
+  margin-left: 3.1rem;
+}
+.body-home .content .what-we-do .testimonial__content {
+  max-width: 25rem;
+  background: #ebe7e4;
+  color: #ac9b93;
+  padding: 2.6rem 0 3.3rem 2.6rem;
+  font-size: 2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 2.7rem;
+  letter-spacing: 0.1px;
+  position: relative;
+}
+.body-home .content .what-we-do .testimonial__content .down-arrow {
+  position: absolute;
+  bottom: -2rem;
+  right: 1.9rem;
+  width: 0;
+  height: 0;
+  border-left: 3rem solid transparent;
+  border-right: 3rem solid transparent;
+  border-top: 3rem solid #ebe7e4;
+  transform: rotate(-135deg);
+  transform-origin: 50% 42%;
+}
+.body-home .content .what-we-do .testimonial__author {
+  text-align: end;
+  margin-top: 4.4rem;
+  margin-right: 0.9rem;
+}
+.body-home .content .what-we-do .testimonial__author .author {
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.body-home .content .what-we-do .testimonial__author .website {
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin-right: 0.4rem;
+  color: #89451f;
+  font-weight: 600;
+}
+.body-home .content .recent-work {
+  padding: 2.4rem 1.1rem 2.3rem 0;
+}
+.body-home .content .recent-work__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+}
+.body-home .content .recent-work__title .title {
+  margin-top: 1px;
+  text-transform: capitalize;
+  font-family: "DuepuntozeroW00-Regular";
+  font-weight: 400;
+  font-size: 4.1rem;
+}
+.body-home .content .recent-work__title .list-page {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding-right: 0.3rem;
+}
+.body-home .content .recent-work__title .list-page .page-number {
+  padding: 0.3rem 0.7rem;
+  border-radius: 9999px;
+  background: #6c535a;
+  margin-left: 1rem;
+  color: white;
+  font-size: 1.2rem;
+}
+.body-home .content .recent-work__title .list-page .page-number:first-child {
+  opacity: 0.8;
+}
+.body-home .content .recent-work__image {
+  padding: 1rem;
+  border: 2px solid #dad5d5;
+  background: white;
+}
+.body-home .content .recent-work__note {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  text-align: end;
+  font-weight: 700;
+  color: #4e4d4d;
+  font-style: italic;
+  margin-top: 1.3rem;
+  font-size: 1.3rem;
+}
+.body-home .content .recent-work__note span {
+  font-weight: 200;
+  text-transform: none;
+  color: #686766;
+}
+
+@media (max-width: 992px) {
+  .body-home {
+    grid-template-columns: 1fr;
+  }
+  .body-home__left {
+    display: none;
+  }
+  .body-home .content {
+    padding: 2.5rem 2.3rem 2.3rem 2.3rem;
+  }
+  .body-home .content .what-we-do {
+    justify-content: space-around;
+  }
+  .body-home .content .recent-work {
+    padding-right: 0;
+  }
+}
+@media (max-width: 640px) {
+  .body-home .content .what-we-do {
+    display: block;
+  }
+  .body-home .content .what-we-do .list-job {
+    max-width: none;
+  }
+  .body-home .content .what-we-do .list-job__item .item__content .text {
+    font-size: 1.3rem;
+  }
+  .body-home .content .what-we-do .testimonial {
+    padding-bottom: 1rem;
+  }
+  .body-home .content .what-we-do .testimonial__content {
+    max-width: 39rem;
+    margin: 0 auto;
+  }
+}
+
+/*# sourceMappingURL=home.css.map */
