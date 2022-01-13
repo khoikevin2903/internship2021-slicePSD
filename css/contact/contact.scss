@@ -1,6 +1,12 @@
-@mixin font-face {
+@import url(//db.onlinewebfonts.com/c/fe804155ad60a0702537f7e94387964f?family=DuepuntozeroW00-Regular);
+@font-face {
     font-family: "DuepuntozeroW00-Regular";
-    src: url("../../font/Duepuntozero\ W00\ Regular.ttf") format("truetype");
+    src: url("//db.onlinewebfonts.com/t/fe804155ad60a0702537f7e94387964f.eot");
+    src: url("//db.onlinewebfonts.com/t/fe804155ad60a0702537f7e94387964f.eot?#iefix") format("embedded-opentype"),
+        url("//db.onlinewebfonts.com/t/fe804155ad60a0702537f7e94387964f.woff2") format("woff2"),
+        url("//db.onlinewebfonts.com/t/fe804155ad60a0702537f7e94387964f.woff") format("woff"),
+        url("//db.onlinewebfonts.com/t/fe804155ad60a0702537f7e94387964f.ttf") format("truetype"),
+        url("//db.onlinewebfonts.com/t/fe804155ad60a0702537f7e94387964f.svg#DuepuntozeroW00-Regular") format("svg");
 }
 .body-contact {
     margin-top: 3.9rem;
@@ -10,7 +16,7 @@
     .body-right {
         margin-right: 3.6px;
         .title {
-            @include font-face();
+            font-family: "DuepuntozeroW00-Regular";
             padding-left: 0.2rem;
             font-size: 4.1rem;
             text-transform: capitalize;
