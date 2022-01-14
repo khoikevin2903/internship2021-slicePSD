@@ -77,6 +77,13 @@ html {
             cursor: pointer;
             border-radius: 0.3rem;
 
+            a {
+                display: flex;
+                align-items: center;
+                text-decoration: none;
+                color: unset;
+            }
+
             .item__icon {
                 width: 4rem;
                 img {
@@ -119,6 +126,11 @@ html {
                 list-style: none;
                 color: #967c70;
                 z-index: 999;
+
+                .item {
+                    cursor: pointer;
+                    z-index: 2;
+                }
 
                 .icon-light {
                     position: absolute;

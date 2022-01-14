@@ -72,6 +72,12 @@ html {
   cursor: pointer;
   border-radius: 0.3rem;
 }
+.sidenav__menu__item a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: unset;
+}
 .sidenav__menu__item .item__icon {
   width: 4rem;
 }
@@ -111,6 +117,10 @@ html {
   list-style: none;
   color: #967c70;
   z-index: 999;
+}
+.header__inner .container .header__inner__menu .item {
+  cursor: pointer;
+  z-index: 2;
 }
 .header__inner .container .header__inner__menu .icon-light {
   position: absolute;

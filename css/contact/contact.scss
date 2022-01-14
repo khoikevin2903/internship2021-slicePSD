@@ -56,14 +56,14 @@
                         span {
                             margin-left: 2.4rem;
                             font-size: 1.3rem;
-                            color: rgb(218, 214, 212);
+                            color: #7b7b7b;
                             font-weight: 100;
                         }
                     }
 
                     .fax {
                         span {
-                            color: rgb(218, 214, 212);
+                            color: #7b7b7b;
                             font-weight: 100;
                             margin-left: 4.2rem;
                             font-size: 1.3rem;
@@ -78,14 +78,14 @@
                         span {
                             margin-left: 2.5rem;
                             font-size: 1.3rem;
-                            color: rgb(218, 214, 212);
+                            color: #7b7b7b;
                             font-weight: 100;
                         }
                     }
 
                     .twitter {
                         span {
-                            color: rgb(218, 214, 212);
+                            color: #7b7b7b;
                             font-weight: 100;
                             margin-left: 2.2rem;
                             font-size: 1.3rem;
@@ -101,8 +101,8 @@
             margin-bottom: 13.7rem;
 
             .item {
-                padding-left: 0.3rem;
-                margin-bottom: 2.5rem;
+                padding-left: 0.2rem;
+                margin-bottom: 2.4rem;
                 &__title {
                     text-transform: uppercase;
                     color: #645a56;
@@ -113,13 +113,21 @@
                 &__input {
                     width: 100%;
                     margin-top: 0.8rem;
-                    font-size: 2.1rem;
-                    padding: 0.4rem;
+                    font-size: 1.4rem;
+                    padding: 0.85rem;
                     border: 1px solid #cdc5cf;
                 }
 
+                &__input:focus {
+                    border: 1px solid #cdc5cf;
+                    outline: none;
+                }
+
                 .area {
-                    padding: 0.9rem;
+                    font-family: Arial, Helvetica, sans-serif;
+                    padding: 1rem;
+                    font-size: 1.4rem;
+                    font-weight: lighter;
                 }
             }
 
@@ -156,6 +164,25 @@
             margin-right: auto;
             .form-info {
                 max-width: 35rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 440px) {
+    .body-contact {
+        .body-right {
+            .detail {
+                &__content {
+                    display: grid;
+                    grid-template-columns: 1fr;
+
+                    &__number,
+                    &__text {
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                }
             }
         }
     }

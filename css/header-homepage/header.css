@@ -19,10 +19,6 @@ html {
   -webkit-box-sizing: border-box;
 }
 
-@font-face {
-  font-family: "Duepuntozero";
-  src: url("//db.onlinewebfonts.com/c/fe804155ad60a0702537f7e94387964f?family=DuepuntozeroW00-Regular") format("truetype");
-}
 .wrapper {
   margin: 0 auto;
 }
@@ -69,8 +65,13 @@ html {
   margin-bottom: 2.5rem;
   transition: 0.3s;
   padding: 0.5rem;
-  cursor: pointer;
   border-radius: 3px;
+}
+.sidenav__menu__item a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: unset;
 }
 .sidenav__menu__item .item__icon {
   width: 4rem;
@@ -111,6 +112,10 @@ html {
   list-style: none;
   color: #967c70;
   z-index: 999;
+}
+.header__inner .container .header__inner__menu .item {
+  cursor: pointer;
+  z-index: 2;
 }
 .header__inner .container .header__inner__menu .icon-light {
   position: absolute;
