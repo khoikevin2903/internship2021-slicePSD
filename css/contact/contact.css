@@ -97,9 +97,9 @@
   border-radius: 4px;
 }
 .body-contact .body-right .form-info .item__input:focus {
-  border: 1px solid #d09bdd;
+  border: 1px solid #9a999b;
   outline: none;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  box-shadow: rgba(148, 147, 147, 0.2) 0px 2px 8px 0px;
 }
 .body-contact .body-right .form-info .item .area {
   font-family: Arial, Helvetica, sans-serif;
