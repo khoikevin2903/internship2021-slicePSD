@@ -64,6 +64,13 @@
   .footer__inner .content {
     display: none;
   }
+
+  .footer-contact {
+    height: 6rem;
+  }
+  .footer-contact .footer__inner .logo {
+    padding-bottom: 2rem;
+  }
 }
 
 /*# sourceMappingURL=footer.css.map */

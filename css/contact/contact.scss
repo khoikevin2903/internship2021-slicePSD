@@ -116,11 +116,13 @@
                     font-size: 1.4rem;
                     padding: 0.85rem;
                     border: 1px solid #cdc5cf;
+                    border-radius: 4px;
                 }
 
                 &__input:focus {
-                    border: 1px solid #cdc5cf;
+                    border: 1px solid #d09bdd;
                     outline: none;
+                    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
                 }
 
                 .area {
@@ -138,15 +140,26 @@
             .btn-submit {
                 display: flex;
                 justify-content: end;
-                text-transform: uppercase;
+                text-decoration: none;
+                font-family: "Roboto", sans-serif;
+                font-weight: 600;
+                color: #ffffff;
+                text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+                transition: all 0.2s linear;
 
                 p {
                     font-size: 1.1rem;
-                    border: 1px solid #645a56;
-                    background: #cdc4be;
+                    background-color: #4e9af1;
                     padding: 1rem 2.9rem;
-                    font-family: Arial, Helvetica, sans-serif;
+                    text-transform: uppercase;
+                    cursor: pointer;
+                    border: 0.16em solid rgba(255, 255, 255, 0);
+                    border-radius: 0.4rem;
                 }
+            }
+
+            .btn-submit:hover {
+                opacity: 0.7;
             }
         }
     }
@@ -163,25 +176,35 @@
             margin-left: auto;
             margin-right: auto;
             .form-info {
-                max-width: 35rem;
+                max-width: 40rem;
             }
         }
     }
 }
 
-@media (max-width: 440px) {
+@media (max-width: 600px) {
+    .body-contact {
+        .body-right {
+            padding: 0 20px;
+            .form-info {
+                max-width: unset;
+                .item {
+                    &__input {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
     .body-contact {
         .body-right {
             .detail {
                 &__content {
                     display: grid;
                     grid-template-columns: 1fr;
-
-                    &__number,
-                    &__text {
-                        margin-left: auto;
-                        margin-right: auto;
-                    }
                 }
             }
         }

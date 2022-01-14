@@ -23,7 +23,8 @@ html {
 
 @font-face {
     font-family: "Duepuntozero";
-    src: url("//db.onlinewebfonts.com/c/fe804155ad60a0702537f7e94387964f?family=DuepuntozeroW00-Regular") format("truetype");
+    src: url("//db.onlinewebfonts.com/c/fe804155ad60a0702537f7e94387964f?family=DuepuntozeroW00-Regular")
+        format("truetype");
 }
 
 .wrapper {
@@ -130,6 +131,15 @@ html {
                 .item {
                     cursor: pointer;
                     z-index: 2;
+                    .item__icon {
+                        transition: all 0.2s ease-in-out;
+                    }
+                }
+
+                .item:hover {
+                    .item__icon {
+                        transform: scale(1.2);
+                    }
                 }
 
                 .icon-light {
