@@ -28,6 +28,11 @@ html {
   margin: 0 auto;
 }
 
+.homepage,
+.contactpage {
+  position: relative;
+}
+
 .sidenav {
   height: 100%;
   width: 0;
@@ -251,10 +256,11 @@ html {
 .left,
 .right {
   position: absolute;
-  background-color: rgba(238, 235, 233, 0.068);
-  top: 0;
-  height: 100%;
+  background: linear-gradient(180deg, rgba(247, 245, 244, 0.1) 90%, rgba(207, 228, 235, 0.1) 100%, rgba(232, 228, 225, 0.1) 100%);
+  top: 5.4rem;
+  height: calc(100% - 5.4rem);
   width: calc((100% - 100rem) / 2);
+  box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 10px 0px;
 }
 
 .left {

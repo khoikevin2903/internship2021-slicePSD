@@ -25,6 +25,10 @@ html {
     max-width: 100rem;
     margin: 0 auto;
 }
+.homepage,
+.contactpage {
+    position: relative;
+}
 
 .sidenav {
     height: 100%;
@@ -272,7 +276,7 @@ html {
             .logo {
                 top: -27.2rem;
             }
-    
+
             .image {
                 position: absolute;
                 right: 0;
@@ -289,11 +293,16 @@ html {
 .left,
 .right {
     position: absolute;
-    background-color: rgba(238, 235, 233, 0.068);
-    top: 0;
-    height: 100%;
+    background: linear-gradient(
+        180deg,
+        rgba(247, 245, 244, 0.1) 90%,
+        rgba(207, 228, 235, 0.1) 100%,
+        rgba(232, 228, 225, 0.1) 100%
+    );
+    top: 5.4rem;
+    height: calc(100% - 5.4rem);
     width: calc((100% - 100rem) / 2);
-    // box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 10px 0px;
 }
 
 .left {
@@ -374,9 +383,8 @@ html {
     }
 
     .header-contact {
-    
-        .header__banner {    
-            &__title {    
+        .header__banner {
+            &__title {
                 .image {
                     display: none;
                 }
