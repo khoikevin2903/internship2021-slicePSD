@@ -11,17 +11,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="./css/reset.css"> -->
-    <link rel="stylesheet" href="./css/header-contactpage/header.css">
-    <link rel="stylesheet" href="./css/footer/footer.css">
-    <link rel="stylesheet" href="./css/contact/contact.css">
-    <!-- <link rel="stylesheet" href="./css/responsive/responsive.css"> -->
+    <link rel="stylesheet" href="./assets/css/header/header.css">
+    <link rel="stylesheet" href="./assets/css/footer/footer.css">
+    <link rel="stylesheet" href="./assets/css/contact/contact.css">
     <link
         href="https://www.dafontfree.net/embed/Zm9ybXVsYS1zZXJpYWwtbWVkaXVtLXJlZ3VsYXImZGF0YS8zNi9mLzEzMTAxOC9mb3JtdWxhLXNlcmlhbC1tZWRpdW0tcmVndWxhci50dGY"
         rel="stylesheet" type="text/css" />
     <link href="//db.onlinewebfonts.com/c/fe804155ad60a0702537f7e94387964f?family=DuepuntozeroW00-Regular"
         rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="./font/Helvetica.ttf">
+    <link rel="stylesheet" href="./assets/font/Helvetica.ttf">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@500&display=swap" rel="stylesheet">
@@ -37,46 +35,58 @@
             <ul class="sidenav__menu">
                 <li class="sidenav__menu__item">
                     <a href="./index.html">
-                        <img src="./icon/home.png" alt="" class="item__icon">
+                        <img src="./assets/icon/home.png" alt="" class="item__icon">
                         <p class="item__name">home</p>
                     </a>
                 </li>
                 <li class="sidenav__menu__item">
-                    <img src="./icon/work.png" alt="" class="item__icon">
-                    <p class="item__name">work</p>
+                    <a href="#">
+                        <img src="./assets/icon/work.png" alt="" class="item__icon">
+                        <p class="item__name">work</p>
+                    </a>
                 </li>
                 <li class="sidenav__menu__item">
-                    <img src="./icon/about.png" alt="" class="item__icon">
-                    <p class="item__name">about</p>
+                    <a href="#">
+                        <img src="./assets/icon/about.png" alt="" class="item__icon">
+                        <p class="item__name">about</p>
+                    </a>
                 </li>
                 <l class="sidenav__menu__item">
-                    <img src="./icon/contact.png" alt="" class="item__icon">
-                    <p class="item__name">contact</p>
+                    <a href="./contact-page.html">
+                        <img src="./assets/icon/contact.png" alt="" class="item__icon">
+                        <p class="item__name">contact</p>
+                    </a>
                 </l>
             </ul>
         </div>
-        <div class="header wrapper">
+        <div class="header wrapper header-contact">
             <div class="header__inner">
                 <div class="container">
                     <ul class="header__inner__menu">
-                        <img src="./icon/light.png" alt="" class="icon-light">
+                        <img src="./assets/icon/light.png" alt="" class="icon-light">
                         <li class="item item-home">
                             <a href="./index.html">
-                                <img src="./icon/home.png" class="item__icon" alt="">
+                                <img src="./assets/icon/home.png" class="item__icon" alt="">
                                 <p class="item__name">home</p>
                             </a>
                         </li>
                         <li class="item item-work">
-                            <img src="./icon/work.png" alt="" class="item__icon">
-                            <p class="item__name">work</p>
+                            <a href="#">
+                                <img src="./assets/icon/work.png" alt="" class="item__icon">
+                                <p class="item__name">work</p>
+                            </a>
                         </li>
                         <li class="item item-about">
-                            <img src="./icon/about.png" alt="" class="item__icon">
-                            <p class="item__name">about</p>
+                            <a href="#">
+                                <img src="./assets/icon/about.png" alt="" class="item__icon">
+                                <p class="item__name">about</p>
+                            </a>
                         </li>
                         <l class="item item-contact">
-                            <img src="./icon/contact.png" alt="" class="item__icon">
-                            <p class="item__name">contact</p>
+                            <a href="#">
+                                <img src="./assets/icon/contact.png" alt="" class="item__icon">
+                                <p class="item__name">contact</p>
+                            </a>
                         </l>
                     </ul>
                 </div>
@@ -86,10 +96,10 @@
                 <i class="fas fa-bars icon-menu" onclick="openNav()"></i>
                 <div class="header__banner__title">
                     <div class="logo">
-                        <img src="./icon/Box-logo.png   " alt="">
+                        <img src="./assets/icon/Box-logo.png   " alt="">
                     </div>
                     <div class="image">
-                        <img src="./icon/BOX.png" alt="">
+                        <img src="./assets/icon/BOX.png" alt="">
                     </div>
                 </div>
             </div>
@@ -97,7 +107,7 @@
         <div class="body-contact container">
             <div class="body-left"></div>
             <div class="body-right">
-                <h2 class="title">contact us</h2>
+                <h1 class="title">contact us</h1>
                 <div class="detail">
                     <p class="detail__text">reach us by completing the form below to send an email message, or use any
                         of these
@@ -140,7 +150,7 @@
         <div class="footer wrapper footer-contact">
             <div class="footer__inner container">
                 <div class="logo">
-                    <img src="./icon/logo-footer.png" alt="">
+                    <img src="./assets/icon/logo-footer.png" alt="">
                 </div>
                 <div class="content">
                     <div class="content__left">
